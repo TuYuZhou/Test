@@ -1,0 +1,32 @@
+# ===== 敏感信息（重点保护） =====
+.env
+.env.*
+!.env.example
+
+# ===== 向量数据库缓存（不要提交） =====
+chroma_db/
+vector_db/
+
+# ===== Python 运行产物 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== 日志 =====
+*.log
+
+# ===== IDE 配置 =====
+.idea/
+.vscode/
+*.swp
+*.swo
